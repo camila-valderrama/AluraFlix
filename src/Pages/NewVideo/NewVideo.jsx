@@ -15,7 +15,7 @@ const NewVideo = () => {
     categoria: "",
     img: "",
     video: "",
-    descripcion: "",
+    descricao: "",
   });
 
   const handleChange = (e) => {
@@ -31,7 +31,7 @@ const NewVideo = () => {
       categoria: "",
       img: "",
       video: "",
-      descripcion: "",
+      descricao: "",
     });
   };
 
@@ -41,7 +41,7 @@ const NewVideo = () => {
       categoria: "",
       img: "",
       video: "",
-      descripcion: "",
+      descricao: "",
     });
   };
 
