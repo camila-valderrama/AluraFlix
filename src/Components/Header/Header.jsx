@@ -20,7 +20,7 @@ const Header = () => {
             to="/new-video"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
-            <Button>New Video</Button>
+            <Button>Nuevo Video</Button>
           </LinkNav>
         </NavContainer>
       </Nav>

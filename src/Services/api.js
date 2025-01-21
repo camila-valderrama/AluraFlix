@@ -39,7 +39,7 @@ export const updateVideo = async (videoId, updatedVideo) => {
     const response = await api.put(`/video/${videoId}`, updatedVideo);
     return response.data;
   } catch (error) {
-    console.error("Erro ao atualizar vídeo", error);
+    console.error("Error al actualizar el video", error);
     throw error;
   }
 };
